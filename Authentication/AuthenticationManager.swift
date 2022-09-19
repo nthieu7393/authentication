@@ -9,7 +9,7 @@ import Foundation
 
 open class AuthenticationManager {
     
-    init() {}
+    public init() {}
     
     public func googleSignIn(onCompletion: (_ result: Result<String, AuthenticationError>) -> Void) {
         onCompletion(.success("google sign in thanh cong"))
