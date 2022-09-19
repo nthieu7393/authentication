@@ -7,15 +7,15 @@
 
 import Foundation
 
-public class AuthenticationManager {
+open class AuthenticationManager {
     
-    public init() {}
+    init() {}
     
     public func googleSignIn(onCompletion: (_ result: Result<String, AuthenticationError>) -> Void) {
         onCompletion(.success("google sign in thanh cong"))
     }
     
-    func appleSignIn(onCompletion: (_ result: Result<String, AuthenticationError>) -> Void) {
+    open func appleSignIn(onCompletion: (_ result: Result<String, AuthenticationError>) -> Void) {
         onCompletion(.success("apple sign in thanh cong"))
     }
     
