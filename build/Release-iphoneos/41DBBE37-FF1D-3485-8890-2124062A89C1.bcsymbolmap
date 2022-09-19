@@ -1,0 +1,70 @@
+BCSymbolMap Version: 2.0
+Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk
+iPhoneOS15.5.sdk
+/Users/hieunguyen/Desktop/Authentication/build/Authentication.build/Release-iphoneos/Authentication.build/DerivedSources/Authentication_vers.c
+/Users/hieunguyen/Desktop/Authentication
+_$s14Authentication0A7ManagerC12googleSignIn12onCompletionyys6ResultOySSAA0A5ErrorOGXE_tF
+_$s14Authentication0A7ManagerC12systemSignIn12onCompletionyys6ResultOySSAA0A5ErrorOGXE_tF
+_$s14Authentication0A5ErrorOs0B0AAsADP7_domainSSvgTW
+_$s14Authentication0A5ErrorOs0B0AAsADP5_codeSivgTW
+_$s14Authentication0A5ErrorOs0B0AAsADP9_userInfoyXlSgvgTW
+_$s14Authentication0A5ErrorOs0B0AAsADP19_getEmbeddedNSErroryXlSgyFTW
+_$s14Authentication0A5ErrorOwCP
+_$s14Authentication0A5ErrorOwxx
+_$s14Authentication0A5ErrorOwcp
+_$s14Authentication0A5ErrorOwca
+___swift_memcpy16_8
+_$s14Authentication0A5ErrorOwta
+_$s14Authentication0A5ErrorOwet
+_$s14Authentication0A5ErrorOwst
+_$s14Authentication0A5ErrorOwug
+_$s14Authentication0A5ErrorOwup
+_$s14Authentication0A5ErrorOwui
+_$s14Authentication0A5ErrorOs0B0AAMcMK
+__METACLASS_DATA__TtC14Authentication21AuthenticationManager
+__DATA__TtC14Authentication21AuthenticationManager
+_$s14AuthenticationMXM
+_$s14Authentication0A7ManagerCMf
+_symbolic _____ 14Authentication0A7ManagerC
+_$s14Authentication0A7ManagerCMF
+_$s14Authentication0A5ErrorOWV
+_$s14Authentication0A5ErrorOMf
+_symbolic _____ 14Authentication0A5ErrorO
+_symbolic SS7message_t
+_$s14Authentication0A5ErrorOMF
+__swift_FORCE_LOAD_$_swiftFoundation_$_Authentication
+__swift_FORCE_LOAD_$_swiftObjectiveC_$_Authentication
+__swift_FORCE_LOAD_$_swiftDarwin_$_Authentication
+__swift_FORCE_LOAD_$_swiftCoreFoundation_$_Authentication
+__swift_FORCE_LOAD_$_swiftDispatch_$_Authentication
+__swift_FORCE_LOAD_$_swiftCoreGraphics_$_Authentication
+___swift_reflection_version
+_objc_classes_$s14Authentication0A7ManagerCN
+_$s14Authentication0A7ManagerC11appleSignIn12onCompletionyys6ResultOySSAA0A5ErrorOGXE_tFTq
+Apple clang version 13.1.6 (clang-1316.0.20.12)
+<swift-imported-modules>
+Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+/Users/hieunguyen/Desktop/Authentication/Authentication/AuthenticationManager.swift
+$s14Authentication0A5ErrorOMa
+<compiler-generated>
+$s14Authentication0A5ErrorOwui
+$s14Authentication0A5ErrorOwup
+$s14Authentication0A5ErrorOwug
+$s14Authentication0A5ErrorOwst
+$s14Authentication0A5ErrorOwet
+$s14Authentication0A5ErrorOwta
+__swift_memcpy16_8
+$s14Authentication0A5ErrorOwca
+$s14Authentication0A5ErrorOwcp
+$s14Authentication0A5ErrorOwxx
+$s14Authentication0A5ErrorOwCP
+$s14Authentication0A7ManagerCMa
+_getEmbeddedNSError
+_userInfo.get
+_code.get
+_domain.get
+deinit
+systemSignIn
+googleSignIn
+init

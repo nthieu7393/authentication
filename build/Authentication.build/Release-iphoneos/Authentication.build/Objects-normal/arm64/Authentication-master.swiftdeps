@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "4221e7de1c1d0266d2b36889bd10f2bc9ee55875ec293f3af458d6391e6e8bef"
+build_start_time: [1663516011, 70940017]
+build_end_time: [1663516012, 42742967]
+inputs:
+  "/Users/hieunguyen/Desktop/Authentication/Authentication/AuthenticationManager.swift": [1663514232, 901231765]

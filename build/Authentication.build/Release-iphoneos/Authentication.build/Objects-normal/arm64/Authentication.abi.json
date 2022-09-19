@@ -1,0 +1,324 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Authentication",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "AuthenticationManager",
+      "printedName": "AuthenticationManager",
+      "children": [
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AuthenticationManager",
+              "printedName": "Authentication.AuthenticationManager",
+              "usr": "s:14Authentication0A7ManagerC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:14Authentication0A7ManagerCACycfc",
+          "mangledName": "$s14Authentication0A7ManagerCACycfc",
+          "moduleName": "Authentication",
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "googleSignIn",
+          "printedName": "googleSignIn(onCompletion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Swift.Result<Swift.String, Authentication.AuthenticationError>) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Result",
+                  "printedName": "Swift.Result<Swift.String, Authentication.AuthenticationError>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "AuthenticationError",
+                      "printedName": "Authentication.AuthenticationError",
+                      "usr": "s:14Authentication0A5ErrorO"
+                    }
+                  ],
+                  "usr": "s:s6ResultO"
+                }
+              ],
+              "typeAttributes": [
+                "noescape"
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14Authentication0A7ManagerC12googleSignIn12onCompletionyys6ResultOySSAA0A5ErrorOGXE_tF",
+          "mangledName": "$s14Authentication0A7ManagerC12googleSignIn12onCompletionyys6ResultOySSAA0A5ErrorOGXE_tF",
+          "moduleName": "Authentication",
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "systemSignIn",
+          "printedName": "systemSignIn(onCompletion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Swift.Result<Swift.String, Authentication.AuthenticationError>) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Result",
+                  "printedName": "Swift.Result<Swift.String, Authentication.AuthenticationError>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "AuthenticationError",
+                      "printedName": "Authentication.AuthenticationError",
+                      "usr": "s:14Authentication0A5ErrorO"
+                    }
+                  ],
+                  "usr": "s:s6ResultO"
+                }
+              ],
+              "typeAttributes": [
+                "noescape"
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14Authentication0A7ManagerC12systemSignIn12onCompletionyys6ResultOySSAA0A5ErrorOGXE_tF",
+          "mangledName": "$s14Authentication0A7ManagerC12systemSignIn12onCompletionyys6ResultOySSAA0A5ErrorOGXE_tF",
+          "moduleName": "Authentication",
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:14Authentication0A7ManagerC",
+      "mangledName": "$s14Authentication0A7ManagerC",
+      "moduleName": "Authentication",
+      "declAttributes": [
+        "AccessControl"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "AuthenticationError",
+      "printedName": "AuthenticationError",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "googleLogin",
+          "printedName": "googleLogin",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Authentication.AuthenticationError.Type) -> Authentication.AuthenticationError",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AuthenticationError",
+                  "printedName": "Authentication.AuthenticationError",
+                  "usr": "s:14Authentication0A5ErrorO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "Authentication.AuthenticationError.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "AuthenticationError",
+                      "printedName": "Authentication.AuthenticationError",
+                      "usr": "s:14Authentication0A5ErrorO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:14Authentication0A5ErrorO11googleLoginyA2CmF",
+          "mangledName": "$s14Authentication0A5ErrorO11googleLoginyA2CmF",
+          "moduleName": "Authentication"
+        },
+        {
+          "kind": "Var",
+          "name": "appleLogin",
+          "printedName": "appleLogin",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Authentication.AuthenticationError.Type) -> Authentication.AuthenticationError",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AuthenticationError",
+                  "printedName": "Authentication.AuthenticationError",
+                  "usr": "s:14Authentication0A5ErrorO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "Authentication.AuthenticationError.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "AuthenticationError",
+                      "printedName": "Authentication.AuthenticationError",
+                      "usr": "s:14Authentication0A5ErrorO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:14Authentication0A5ErrorO10appleLoginyA2CmF",
+          "mangledName": "$s14Authentication0A5ErrorO10appleLoginyA2CmF",
+          "moduleName": "Authentication"
+        },
+        {
+          "kind": "Var",
+          "name": "systemLogin",
+          "printedName": "systemLogin",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Authentication.AuthenticationError.Type) -> (Swift.String) -> Authentication.AuthenticationError",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(Swift.String) -> Authentication.AuthenticationError",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "AuthenticationError",
+                      "printedName": "Authentication.AuthenticationError",
+                      "usr": "s:14Authentication0A5ErrorO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Tuple",
+                      "printedName": "(message: Swift.String)",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "Authentication.AuthenticationError.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "AuthenticationError",
+                      "printedName": "Authentication.AuthenticationError",
+                      "usr": "s:14Authentication0A5ErrorO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:14Authentication0A5ErrorO11systemLoginyACSS_tcACmF",
+          "mangledName": "$s14Authentication0A5ErrorO11systemLoginyACSS_tcACmF",
+          "moduleName": "Authentication"
+        }
+      ],
+      "declKind": "Enum",
+      "usr": "s:14Authentication0A5ErrorO",
+      "mangledName": "$s14Authentication0A5ErrorO",
+      "moduleName": "Authentication",
+      "declAttributes": [
+        "AccessControl"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Error",
+          "printedName": "Error",
+          "usr": "s:s5ErrorP",
+          "mangledName": "$ss5ErrorP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}
